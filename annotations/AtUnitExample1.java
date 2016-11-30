@@ -1,7 +1,10 @@
+﻿package annotations;
 
 import net.mindview.util.OSExecute;
 
 /**
+ * 需要去测试的方法二
+ * @author 建苍
  *
  */
 public class AtUnitExample1 {
