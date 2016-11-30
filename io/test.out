@@ -1,0 +1,45 @@
+﻿1: package io;
+2: 
+3: import java.io.File;
+4: import java.util.Arrays;
+5: 
+6: import net.mindview.util.Directory;
+7: 
+8: public class test {
+9: 	public static void main(String[] args) {
+10: //		String str = "ThinkingInJavaUtil";
+11: //		File file = new File(".\\bin");
+12: //		String[] list = file.list();
+13: //		System.err.println(Arrays.toString(list));
+14: 		
+15: //		String strs = new File(str).getName();
+16: //		System.out.println(strs);
+17: 		
+18: //		System.out.println(file.getName());
+19: 		//工具
+20: //		System.out.println(Directory.walk("."));
+21: 		 
+22: 		File file = new File(".");
+23: //		System.out.println(file.getAbsolutePath());
+24: //		System.out.println(file.getParent());
+25: //		System.out.println(file.getPath());
+26: 		file = new File("C:\\workspace\\thinking in java\\src\\io\\test.java");
+27: //		if(file.exists()){
+28: //			System.out.println(file);
+29: //		}else{
+30: //			file.mkdirs();
+31: //		}
+32: 		System.out.println(file);
+33: 		
+34: 		
+35: 		System.out.println(Byte.MAX_VALUE);
+36: 		byte b = 47;
+37: 		System.out.println((char)b);
+38: 		String str = "ADS";
+39: 		System.out.println(Arrays.toString(str.toCharArray()));
+40: 		System.out.println("--------------------");
+41: 		System.out.println(Arrays.toString(str.getBytes()));
+42: 		
+43: 		
+44: 	}
+45: }
